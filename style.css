@@ -95,7 +95,7 @@ header {
   margin-left: 1%;
   float: left;
   position: sticky;
-  top: 10%;
+  top: 68px;
   font-size: 17px;
   padding: 2% 0;
   border-radius: 3px;
@@ -131,7 +131,6 @@ header {
   display: inline-block;
   background: #f3f3f3;
   width: 85%;
-  margin-top: 3px;
 }
 
 .main {
@@ -140,7 +139,7 @@ header {
 }
 
 .lomasvisto{
-  margin-top: 1%;
+  margin-top: 20px;
   width: 1080px;
   padding-left: 3%;  
   background-color: #f3f3f3;    
@@ -363,7 +362,7 @@ header {
 
 /*seccion review*/
 .review {
-  margin-top: 1%;
+  margin-top: 20px;
   margin-left: 12%;
   width: 66%;
   background-color: #f3f3f3;    
@@ -454,7 +453,7 @@ header {
 }
 
 .lomasvisto-estrenos {
-  margin-top: 1%;
+  margin-top: 20px;
   margin-left: 12%;
   width: 66%;
   background-color: #f3f3f3;    
@@ -579,11 +578,13 @@ input:-moz-placeholder {
   color: #888
 }
 
+
+/*seccion comentarios */
+
 .comentario{
   display: inline-block;
-  margin: 0 0 0 15%;
-  width: 70%;
-  padding:2% 5% 0 5%;
+  margin: 0 0 0 12%;
+  width: 66%;
   border-radius: 3px;
   box-shadow: 1px -1px 13px 6px rgba(0,0,0,.1);
   border: solid 1px;
@@ -593,13 +594,25 @@ input:-moz-placeholder {
   color: #5d5b59;
 }
 
+.comentario h2 {
+  margin: 4% 0 0 20%;
+  padding: 0;
+}
+
 .comentario textarea{
-  width: 70%;
+  width: 80%;
   height: 200px;
   box-shadow: 1px -1px 13px 6px rgba(0,0,0,.1);
   color: #5d5b59;
 }
 
+.comentario textarea:hover {
+  border:1px solid #ce1414;
+}
+
+/*.comentario form {
+  margin: 1% 2% 2% 11%;
+}*/
 
 .datapadre{
   width: 100%;
@@ -609,28 +622,31 @@ input:-moz-placeholder {
 .data{
   display: inline-block;
   width: 10%;
+  text-align: center;
 }
 
 .data2{
   box-shadow: 1px -1px 13px 6px rgba(0,0,0,.1);
   display: inline-block;
+  border: solid 1px;
+  border-color: rgb(169, 169, 169);
 }
 
 .botonpadre{
   width: 100%;
 }
+
 .bottom{
- width: 30%;
+ width: 22%;
   display: inline-block;
-  padding: 0 0 0 5%;
+  padding: 0 0 0 39%;
 }
 
-.bottom2{
+/*.bottom2{
   width: 30%;
   display: inline-block;
   padding: 0 0 0 5%;
-}
-
+}*/
 
 #sr{
   font-size: 125%;
@@ -642,12 +658,27 @@ input:-moz-placeholder {
   color:red;
 
 }
+
 .data2:hover{
+
 border:1px solid red;
  
 }
 
 .sing-up{
   
+  border:1px solid #ce1414; 
+}
 
+.data2 input {
+  border-width: 0;
+}
+
+.textarea-comments {
+  margin-left: 15%;
+}
+
+
+.sing-up{
+  display: inline-block;
 }
